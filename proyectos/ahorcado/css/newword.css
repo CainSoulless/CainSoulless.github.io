@@ -1,0 +1,63 @@
+body {
+    background-color: #E5E5E5;
+    /* height: 60em; */
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    background-color: #E5E5E5;
+}
+
+textarea {
+    width: 25em;
+    height: 15em;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #E5E5E5;
+
+    /* font */
+    font-size: 32px;
+    color: #0A3871;
+    line-height: 150%;
+}
+
+textarea::placeholder {
+    opacity: 1;
+}
+
+.warningMsg {
+    display: flex;
+    gap: 0.5em;
+}
+
+.warning__img {
+    width: 1em;
+}
+
+.btn {
+    display: flex;
+    gap: 2em;
+}
+
+.btn button{
+    margin: 1em 0 16em;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 24px;
+    transition: 0.5s;
+    width: 22em;
+    height: 4em;
+}
+
+.btnSave {
+    background-color: #0A3871;
+    color: white;
+}
+
+.btnCancel {
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}

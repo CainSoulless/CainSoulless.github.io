@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    .proyectos__proyecto {
+        margin: 4rem 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #proyecto__2, #proyecto__4 {
+        flex-direction: column-reverse;
+    }
+
+    .sobre-mi__info {
+        flex-direction: column;
+    }
+
+    #sobre-mi__parrafo-1{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header__menu, .banner{
+        justify-content: left;
+        margin-left: 7%;
+        width: calc(100% - 7%);
+    }
+    .header__lista {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .header__rectangulo {
+        width: 100%;
+        height: 46rem;
+    }
+
+    .banner__saludo {
+        font-size: 4rem;
+    }
+
+    .banner__redes{
+        margin: 0;
+    }
+
+    .banner__redes-lista{
+        display: flex;
+        font-size: 4rem;
+        gap: 6rem;
+    }
+}

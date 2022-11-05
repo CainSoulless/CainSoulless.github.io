@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Agregar nueva palabra.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/newword.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <a class="logo" href="index.html"><img src="img/Vector.svg" alt="Logo de Alura LATAM"></a>
+        </header>
+        <div id="ahorcado">
+            <canvas id="myCanvas" width="1200" height="860"></canvas>
+        </div>
+        <section class="container">
+            <div class="textarea">
+               <textarea id="textareaId" placeholder="Ingrese una palabra."></textarea> 
+            </div>
+            <div class="warningMsg">
+                <img class="warning__img" src="img/symbol.svg" alt="Imagen de advertencia.">
+                <p class="warning__parag">Max. de 8 letras.</p>
+            </div>
+
+            <div class="btn">
+                <button type="button" id="btnSave" class="btnSave" onclick="addWord()">Guardar y empezar</button>
+                <a href="index.html"><button type="button" class="btnCancel">Cancelar</button></a>
+            </div> 
+        </section>
+        <section class="modal">
+            <div class="modal__container">
+                <img src="" alt="Ventana modal de advertencia." class="modal__img"> 
+                <h2 class="modal__title"></h2>
+                <p class="modal__para"></p>
+                <a href="newword.html" class="modal__close"></a>
+            </div>
+        </section>
+        <footer>
+            <p>Developed by Rodrigo Hormazabal</p>
+            <a class="footer__ref" href="https://www.github.com/CainSoulless" target="_blank">GitHub</a>
+        </footer>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/newword.js"></script>
+        <script type="text/javascript" src="js/modal.js"></script>
+    </body>
+</html>

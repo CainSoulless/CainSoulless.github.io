@@ -1,0 +1,10 @@
+.proyectos__proyecto {
+    display: flex;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#proyecto__2, #proyecto__4 { 
+    flex-direction: row-reverse;
+}

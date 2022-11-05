@@ -1,0 +1,15 @@
+.banner__bottom {
+    font-size: 24px;
+    margin-top: 3rem;
+    text-align: center;
+    width: 20%;
+    min-width: 16em;
+    height: 100%;
+    min-width: 8em;
+    background: #FFE8E8;
+    color: #999999;
+    padding: 1%;
+
+    transition: 1s all;
+
+}

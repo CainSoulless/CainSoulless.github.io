@@ -1,0 +1,7 @@
+.banner__saludo {
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    width: calc(45% - 10rem);
+}

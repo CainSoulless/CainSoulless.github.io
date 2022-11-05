@@ -1,0 +1,7 @@
+.header__item {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 6px;
+    display: flex;
+}

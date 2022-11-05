@@ -1,0 +1,5 @@
+.banner__redes-lista {
+    display: flex;
+    justify-content: space-between;
+    width: 19%;
+}

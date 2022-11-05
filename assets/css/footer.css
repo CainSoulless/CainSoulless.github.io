@@ -1,0 +1,8 @@
+.footer {
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.4px;
+    padding-top: 1rem;
+    background-color: #999999;
+    color: var(--primary-color);
+}

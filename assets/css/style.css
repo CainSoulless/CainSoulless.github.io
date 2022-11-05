@@ -1,0 +1,30 @@
+h2 {
+    color: #999999;
+    font-size: 500%;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 5% 0 5% 0;
+
+}
+
+h3 {
+    color: #6D6D6D;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    color: #7E7C7C;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 0 7%;
+}
+
+@media screen and (min-width: 768px) {
+
+}

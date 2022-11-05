@@ -1,0 +1,6 @@
+.experiencia__puesto {
+    display: flex;
+    gap: 20%;
+    text-align: left;
+    margin-bottom: 2rem;
+}

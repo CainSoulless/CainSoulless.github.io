@@ -1,0 +1,167 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #E5E5E5;
+    /* background-color: red; */
+    height: 6em;
+}
+
+.logo {
+    position: relative;
+    top: 2em;
+    margin-left: 2%;
+    width: 2%;
+    background-color: #E5E5E5;
+}
+
+main {
+    width: 100%;
+    height: 900px;
+    background: #E5E5E5;
+}
+
+#myCanvas {
+    display: none;
+    position: relative; 
+    top: -7em;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    height: 970px;
+}
+
+.buttons button {
+    max-width: 50%;
+    padding: 24px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.btn {
+    position: relative;
+    top: -7em;
+    justify-content: center;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+.buttons button:active {
+    /* animation */
+    transition: 0ms;
+}
+
+.btnPrimary {
+    color: white;
+    width: 17%;
+    /* min-width: 20%; */
+    height: 10%;
+    background: #0A3871;
+}
+
+.btnSecondary {
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+/* Modal window */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0vh);
+    --transition: transform .8s .8s;
+}
+
+.modal__container {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    border-radius: 24px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    background-color: white;
+    transform: var(--transform);
+    transition: transform 1s;
+}
+
+.modal__title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.modal__img {
+    width: 50%;
+    max-width: 300px;
+
+}
+
+.modal__para {
+    margin-bottom: 10px;
+}
+
+.modal__close {
+    text-decoration: none;
+    color: white;
+    border-color: #0A3871;
+    background-color: #0A3871;
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: 300;
+
+    /* Animation */
+    transition: .6s;
+}
+
+.modal__close:hover {
+    color: #0A3871;
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 5em;
+    background: #D8D8D8;
+}
+
+.footer__ref {
+    padding-top: 1em;
+}

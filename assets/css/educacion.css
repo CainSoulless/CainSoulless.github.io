@@ -1,0 +1,7 @@
+.educacion {
+    margin: 0;
+    width: 100%;
+    /* background: #6D6D6D; */
+    display: flex;
+    flex-wrap: wrap;
+}

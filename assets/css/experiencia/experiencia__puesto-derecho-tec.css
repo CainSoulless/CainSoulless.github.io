@@ -1,0 +1,15 @@
+.experiencia__puesto-derecho-tec {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.experiencia__pill {
+    background-color: #D8D8D8;
+    border-radius: 16px;
+    margin: auto 0;
+    padding: 0 1rem;
+    text-align: center;
+    width: auto;    
+    flex-wrap: wrap;
+}

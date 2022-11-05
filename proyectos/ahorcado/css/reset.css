@@ -1,0 +1,90 @@
+
+/* Definimos variables */
+:root {
+    --primary-color: #181818;
+    --secundary-color: #f0f0f0;
+}
+
+/* Dark color */
+/* @media (prefers-color-scheme: dark) { */
+    /* :root { */
+        /* --primary-color: #f0f0f0; */
+        /* --secundary-color: #181818; */
+    /* } */
+/* } */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+/*  */
+p a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u ,em {
+    font-size: 1em;
+    font-weight: inherit;
+    
+    text-decoration: none;
+    color: inherit;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+}
+
+form, input, textarea, select, bytton, label {
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color: inherit;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    color: var(--primary-color);
+    background-color: var(--secundary-color)
+}
